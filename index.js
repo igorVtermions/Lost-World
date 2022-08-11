@@ -14,3 +14,21 @@ function closenNavBtn(){
 }
 
 closeNav.addEventListener('click', closenNavBtn)
+
+//container
+
+const modal = document.querySelector('.modal')
+const openModal = document.querySelector('.btnregister')
+const closeModal = document.querySelector('#closemodal')
+
+function openModalBtn(){
+    modal.style.display = 'flex'
+}
+
+openModal.addEventListener('click', openModalBtn)
+
+function closeModalBtn(){
+    modal.style.display = 'none'
+}
+
+closeModal.addEventListener('click', closeModalBtn)

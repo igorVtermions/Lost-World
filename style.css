@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Rubik+Dirt&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -84,14 +84,14 @@ p{
     align-items: center;
     padding: 10px;
     background: #240000;
-    border-radius: 15px 0 15px 0;
+    border-radius: 15px 2px 15px 2px;
     width: 400px;
     height: 400px;
 }
 h2{
     font-size: 30px;
     position: relative;
-    top: -30px;
+    top: -15px;
 }
 label{
    margin-top: 5px;
@@ -120,3 +120,56 @@ input{
     background-color: #0a0000;
 }
 
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    animation: modal .4s;
+}
+
+#closemodal{
+    font-size: 40px;
+    position: absolute;
+    right: 395px;
+    top: 270px;
+    cursor: pointer;
+}
+
+.btnregister{
+    border: 2px #240000 solid;
+    background-color: #0a0000;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btnregister:hover{
+    background-color: #240000;
+}
+
+.download{
+    margin: 10px;
+    font-size: 15px;
+}
+
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
