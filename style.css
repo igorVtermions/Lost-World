@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px #5c0000 solid; 
+}
+
+img{
+    padding: 10px;
+    width: 130px;
+    cursor: pointer;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+ li, a{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    transition: all .5s ease-in;
+}
+
+li, a:hover{
+    color: #5c0000;
+}
+
+#opennav{
+    display: none;
+}
+#closenav{
+    display: none;
+}
+
+/*Conteúdo Central*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+    margin-top: 100px;
+}
+h4{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+}
+p{
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+.text{
+    margin-top: 10px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #240000;
+    border-radius: 15px 0 15px 0;
+    width: 400px;
+    height: 400px;
+}
+h2{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+label{
+   margin-top: 5px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.btnsubmit{
+    margin-top: 10px;
+    width: 120px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+
+.btnsubmit:hover{
+    color: white;
+    background-color: #0a0000;
+}
+
