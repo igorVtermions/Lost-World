@@ -16,6 +16,7 @@ body{
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px #5c0000 solid; 
+    max-width: 100%;
 }
 
 img{
