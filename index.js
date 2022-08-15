@@ -32,3 +32,4 @@ function closeModalBtn(){
 }
 
 closeModal.addEventListener('click', closeModalBtn)
+

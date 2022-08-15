@@ -18,20 +18,25 @@
         position: fixed;
         z-index: 1;
         margin-top: 300px;
-        width: 300px;
-        height: 700px;
+        width: 400px;
+        height: 1000px;
         background-color:#5c0000 ;
         display: none;
+        border-radius: 10px;
     }
     li a{ 
-        padding: 10px;
         font-size: 35px;
+        text-decoration: underline;
+    }
+    li{
+        margin: 10px;
     }
     #closenav{
         display: flex;
         position: fixed;
         top: 1px;
         font-size: 45px;
+        margin-top: 20px;
     }
     .nav{
         animation: nav .4s;
@@ -79,7 +84,7 @@
     }
 }
 @media(max-width:410px){
-    .modal-container{
+    .content{
         width: 300px;
         height: 400px;
     }

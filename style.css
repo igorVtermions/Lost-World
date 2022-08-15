@@ -37,11 +37,7 @@ img{
     padding: 5px;
     color: white;
     font-size: 20px;
-    transition: all .5s ease-in;
-}
-
-li, a:hover{
-    color: #5c0000;
+  
 }
 
 #opennav{
@@ -88,6 +84,11 @@ p{
     border-radius: 15px 2px 15px 2px;
     width: 400px;
     height: 400px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
 }
 h2{
     font-size: 30px;
